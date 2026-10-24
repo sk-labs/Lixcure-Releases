@@ -43,6 +43,8 @@ may ever be committed to this repo.
 
 ## Releases
 
+- v1.0.3 (Linux) — launcher fallback fixes: pointer recorded at start,
+  crashed versions excluded from About revert targets.
 - v1.0.2 (Linux) — launcher fallback release. v1.0.1 was a test-only
   release (flat bundle, no launcher) and was superseded before any
   hospital install; its zip was removed.
