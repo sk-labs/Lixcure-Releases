@@ -1,0 +1,10 @@
+{
+  "latest_version": "1.0.1",
+  "notes": "Automatic updates: the app now checks for updates every 3 hours while it runs, and any time from About > Check for updates. Updates download verified (SHA-256) and install side-by-side, with rollback to the previous version from About.",
+  "assets": {
+    "linux": {
+      "url": "https://raw.githubusercontent.com/sk-labs/Lixcure-Releases/main/builds/hms-linux-v1.0.1.zip",
+      "sha256": "31a6f49c51d40e1bc2a987fccd536546c9c0980c90481ab469a5df9bde44bd01"
+    }
+  }
+}
