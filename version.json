@@ -1,10 +1,10 @@
 {
-  "latest_version": "1.0.2",
-  "notes": "Launcher fallback: the hospital shortcut now starts a small launcher that watches the app launch \u2014 if a new version crashes on start, it automatically falls back to the previous working version and tells the user why. Updates still check every 3 hours and from About > Check for updates, with verified downloads and side-by-side installs.",
+  "latest_version": "1.0.3",
+  "notes": "Launcher fallback fixes: the launcher now records the running version the moment it starts (so a kill or power loss can't leave the pointer on a crashed version), and About no longer offers a crashed version as a revert target. Same update flow: checks every 3 hours and from About > Check for updates, verified downloads, side-by-side installs.",
   "assets": {
     "linux": {
-      "url": "https://raw.githubusercontent.com/sk-labs/Lixcure-Releases/main/builds/hms-linux-v1.0.2.zip",
-      "sha256": "d2e496043f08789257e772766d72001a090a2b456ef1ce3feb61172e72412cbe"
+      "url": "https://raw.githubusercontent.com/sk-labs/Lixcure-Releases/main/builds/hms-linux-v1.0.3.zip",
+      "sha256": "0ef69ff14d21451cb812e55905b08fc979399296a96c65a82b599cb668b60bcb"
     }
   }
 }
