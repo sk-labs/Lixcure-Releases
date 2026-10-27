@@ -1,10 +1,10 @@
 {
-  "latest_version": "1.1.0",
-  "notes": "Server-verified license activation with device binding, plus a first-run gate: a PC with no license shows the activation form, an expired/revoked one shows the reason, and the app revalidates at startup without ever bricking itself on a day without internet. The hub can now issue licenses (renew/suspend/revoke) together with the hospital Admin + HR sign-in accounts shown once. This release ships the Windows build only; Linux installs stay on v1.0.3 until a Linux build is cut. Launcher fix: silent 'no working version' on fresh installs resolved, and the launcher now runs windowless (single app window).",
+  "latest_version": "1.2.0",
+  "notes": "Accounts & Other staff form: HR can now create sign-in accounts for every role except admin (receptionist with its OPD/ER/GYN counter desk, pharmacist, accountant, front office, HR, support staff), shown as the picked-account-role. Server-side guard deployed on vm-pb: only Central Command mints admin accounts. No other behavior changed from v1.1.0.",
   "assets": {
     "windows": {
-      "url": "https://raw.githubusercontent.com/sk-labs/Lixcure-Releases/main/builds/hms-windows-v1.1.0.zip",
-      "sha256": "3b3c73df0e93eeeb00a2036a4e14ca151ee828ee8d60fca9ff39711a5f5bfc5b"
+      "url": "https://raw.githubusercontent.com/sk-labs/Lixcure-Releases/main/builds/hms-windows-v1.2.0.zip",
+      "sha256": "82958e0d32a9bd28a267a4960c4060d2a93f5a350432c788f5f15271ddf31308"
     }
   }
 }

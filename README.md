@@ -50,6 +50,10 @@ may ever be committed to this repo.
 
 ## Releases
 
+- v1.2.0 (Windows) — Accounts & Other staff form: HR creates sign-in
+  accounts for every role except admin (receptionist with the OPD/ER/GYN
+  counter desk picker, pharmacist, accountant, front office, HR, support
+  staff); admin minting is server-guarded to Central Command only.
 - v1.1.0 (Windows) — first server-verified license release: activation
   binds the device, first-run gating (activation form / subscription
   screen / app), bootstrap Admin + HR accounts issued with the license,
