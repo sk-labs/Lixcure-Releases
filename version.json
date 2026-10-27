@@ -1,10 +1,10 @@
 {
-  "latest_version": "1.2.0",
-  "notes": "Accounts & Other staff form: HR can now create sign-in accounts for every role except admin (receptionist with its OPD/ER/GYN counter desk, pharmacist, accountant, front office, HR, support staff), shown as the picked-account-role. Server-side guard deployed on vm-pb: only Central Command mints admin accounts. No other behavior changed from v1.1.0.",
+  "latest_version": "1.2.1",
+  "notes": "Update fixes: the post-update Restart button now actually relaunches the new version (it was looking for the wrong binary name inside versions/<v>), old version folders are pruned after each successful update (current + one rollback target kept), and the launcher and app carry the Lixcure emblem icon instead of the generic Windows/Dart one. Same staff features as v1.2.0.",
   "assets": {
     "windows": {
-      "url": "https://raw.githubusercontent.com/sk-labs/Lixcure-Releases/main/builds/hms-windows-v1.2.0.zip",
-      "sha256": "82958e0d32a9bd28a267a4960c4060d2a93f5a350432c788f5f15271ddf31308"
+      "url": "https://raw.githubusercontent.com/sk-labs/Lixcure-Releases/main/builds/hms-windows-v1.2.1.zip",
+      "sha256": "e1e5d02e17e594f94d21d1e129d9754b9954f8a87e79d150ef788861ad395201"
     }
   }
 }

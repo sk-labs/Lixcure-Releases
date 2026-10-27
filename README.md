@@ -30,6 +30,9 @@ may ever be committed to this repo.
 2. Compile the launcher (per-OS binary: `lixcure_hms` on Linux,
    `lixcure_hms.exe` on Windows):
    `dart compile exe tool/launcher.dart -o lixcure_hms`
+   On Windows also patch it into a GUI app and give it the app icon:
+   `python scripts/patch_launcher_gui.py lixcure_hms.exe`
+   `python scripts/patch_launcher_icon.py lixcure_hms.exe app_icon.ico`
 3. Assemble the zip from the install root:
    `lixcure_hms(.exe)` (launcher) + `versions/1.2.3/` (bundle contents).
 4. Hash it: `sha256sum hms-<os>-v1.2.3.zip`.
@@ -50,6 +53,12 @@ may ever be committed to this repo.
 
 ## Releases
 
+- v1.2.1 (Windows) — update-flow fixes: Restart after a self-update now
+  relaunches the installed bundle (it searched for `lixcure_hms.exe`
+  inside `versions/<v>` and missed the Flutter runner `LixcureHMS.exe`);
+  installed old versions are pruned after each successful update (the
+  current version + one rollback target stay); launcher and app now
+  carry the Lixcure emblem icon.
 - v1.2.0 (Windows) — Accounts & Other staff form: HR creates sign-in
   accounts for every role except admin (receptionist with the OPD/ER/GYN
   counter desk picker, pharmacist, accountant, front office, HR, support
