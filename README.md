@@ -53,6 +53,13 @@ may ever be committed to this repo.
 
 ## Releases
 
+- v1.2.2 (Windows) — the root launcher refreshes on update. The v1.2.1
+  update installed the iconed launcher inside `versions/1.2.1/` but left
+  the root `lixcure_hms.exe` untouched (Windows refuses to overwrite a
+  running executable), so the hospital PC kept showing the generic icon
+  next to the shortcut. Updates now rename the running launcher aside
+  and move the new one into its place, deleting the aside on the next
+  start.
 - v1.2.1 (Windows) — update-flow fixes: Restart after a self-update now
   relaunches the installed bundle (it searched for `lixcure_hms.exe`
   inside `versions/<v>` and missed the Flutter runner `LixcureHMS.exe`);
