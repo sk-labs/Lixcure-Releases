@@ -1,10 +1,10 @@
 {
-  "latest_version": "1.2.2",
-  "notes": "Root launcher refresh on update: the v1.2.1 update installed the iconed launcher inside versions/1.2.1/ but left the root lixcure_hms.exe untouched (Windows refuses to overwrite a running executable), so the hospital PC kept showing the generic icon. Updates now rename the running launcher aside and move the new one into its place, deleting the aside on the next start. Same fixes as v1.2.1 plus the v1.2.0 staff form.",
+  "latest_version": "1.2.3",
+  "notes": "HR can now reset staff passwords and edit staff profiles from the desktop HR form. Profile edits sync to the central server. Demo accounts (@lixcure.com) are immutable.",
   "assets": {
     "windows": {
-      "url": "https://raw.githubusercontent.com/sk-labs/Lixcure-Releases/main/builds/hms-windows-v1.2.2.zip",
-      "sha256": "0840dea6edd8155ee48256410a95d3c240ccaf572edb861fbf9f21809afd77d8"
+      "url": "https://raw.githubusercontent.com/sk-labs/Lixcure-Releases/main/builds/hms-windows-v1.2.3.zip",
+      "sha256": "3c5677e595c017de1bd0dc21e7bb96ecabd71d5b73ddee7eeac5e0a59e205dd3"
     }
   }
 }
