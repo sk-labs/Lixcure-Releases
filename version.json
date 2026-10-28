@@ -4,7 +4,7 @@
   "assets": {
     "windows": {
       "url": "https://raw.githubusercontent.com/sk-labs/Lixcure-Releases/main/builds/hms-windows-v1.2.2.zip",
-      "sha256": "26cba97768f4127bdd50dcaa52785b6ac190354e609ebe272a690827792b5407"
+      "sha256": "0840dea6edd8155ee48256410a95d3c240ccaf572edb861fbf9f21809afd77d8"
     }
   }
 }
