@@ -1,10 +1,10 @@
 {
-  "latest_version": "1.2.6",
-  "notes": "Fix: right after signing in online, the header sync dot briefly showed a stale 'no PocketBase session' error left over from pre-login sync attempts — it now clears immediately on sign-in, so the dot shows the real status straight away.",
+  "latest_version": "1.2.7",
+  "notes": "New: the app now remembers your last sign-in — after a restart you go straight in without retyping the password. The saved session is valid for one week; after that you sign in once more with your PocketBase account. Signing out on purpose also requires a sign-in next time.",
   "assets": {
     "windows": {
-      "url": "https://raw.githubusercontent.com/sk-labs/Lixcure-Releases/main/builds/hms-windows-v1.2.6.zip",
-      "sha256": "8f779311dc5963b80e26729d586cf4a4a42e58d4679c9b392f55b427dba31e7b"
+      "url": "https://raw.githubusercontent.com/sk-labs/Lixcure-Releases/main/builds/hms-windows-v1.2.7.zip",
+      "sha256": "8e5cfd4247562e0a961a02c619f7729613a65ab74808883e78cf9a747494f798"
     }
   }
 }
