@@ -1,10 +1,10 @@
 {
-  "latest_version": "1.2.4",
-  "notes": "Sync hardened for offline work: network outages and dead tokens no longer burn queued rows (OPD tickets made offline now push automatically when internet returns), the admin sync master switch survives restarts, an offline sign-in restores the saved sync session, and a new universal sync status indicator (green/red dot) sits in the header next to the profile avatar. Sync Monitor now shows only your own hospital count.",
+  "latest_version": "1.2.5",
+  "notes": "Faster connection status: the header sync dot now pings the server directly, so it turns red 'Offline' within a few seconds of losing internet and green again as soon as the connection returns — no more waiting for the next 30-second sync cycle. Data handling unchanged; everything still syncs automatically when back online.",
   "assets": {
     "windows": {
-      "url": "https://raw.githubusercontent.com/sk-labs/Lixcure-Releases/main/builds/hms-windows-v1.2.4.zip",
-      "sha256": "ee76d9c7fb2c680007c9f7e29b046bea7fb13ec1d8fe022029e6265da32ffffa"
+      "url": "https://raw.githubusercontent.com/sk-labs/Lixcure-Releases/main/builds/hms-windows-v1.2.5.zip",
+      "sha256": "2ce4b2a9d30c4c07cc7d4e82e533f4ca2bac7d6703d809c431a78f3da89e7c7f"
     }
   }
 }
