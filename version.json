@@ -1,10 +1,10 @@
 {
-  "latest_version": "1.2.5",
-  "notes": "Faster connection status: the header sync dot now pings the server directly, so it turns red 'Offline' within a few seconds of losing internet and green again as soon as the connection returns — no more waiting for the next 30-second sync cycle. Data handling unchanged; everything still syncs automatically when back online.",
+  "latest_version": "1.2.6",
+  "notes": "Fix: right after signing in online, the header sync dot briefly showed a stale 'no PocketBase session' error left over from pre-login sync attempts — it now clears immediately on sign-in, so the dot shows the real status straight away.",
   "assets": {
     "windows": {
-      "url": "https://raw.githubusercontent.com/sk-labs/Lixcure-Releases/main/builds/hms-windows-v1.2.5.zip",
-      "sha256": "2ce4b2a9d30c4c07cc7d4e82e533f4ca2bac7d6703d809c431a78f3da89e7c7f"
+      "url": "https://raw.githubusercontent.com/sk-labs/Lixcure-Releases/main/builds/hms-windows-v1.2.6.zip",
+      "sha256": "8f779311dc5963b80e26729d586cf4a4a42e58d4679c9b392f55b427dba31e7b"
     }
   }
 }
