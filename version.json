@@ -1,10 +1,10 @@
 {
-  "latest_version": "1.2.7",
-  "notes": "New: the app now remembers your last sign-in — after a restart you go straight in without retyping the password. The saved session is valid for one week; after that you sign in once more with your PocketBase account. Signing out on purpose also requires a sign-in next time.",
+  "latest_version": "1.2.8",
+  "notes": "New: click your avatar in the header to open My Profile — you can update your own name and phone there, and the change syncs to the server automatically (email, role and department stay with HR/admin). Fixed: dashboards now count new prescriptions immediately — OPD/Finalized/Drafts used to stay 0 until you pressed refresh. Also fixed the OPD counter registration flow and various internal cleanups.",
   "assets": {
     "windows": {
-      "url": "https://raw.githubusercontent.com/sk-labs/Lixcure-Releases/main/builds/hms-windows-v1.2.7.zip",
-      "sha256": "8e5cfd4247562e0a961a02c619f7729613a65ab74808883e78cf9a747494f798"
+      "url": "https://raw.githubusercontent.com/sk-labs/Lixcure-Releases/main/builds/hms-windows-v1.2.8.zip",
+      "sha256": "28c9ce72764ba3ebb19d73f9f38fc05a939dc741f53fa66f62f46373d5b9c047"
     }
   }
 }
