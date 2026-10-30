@@ -1,10 +1,10 @@
 {
-  "latest_version": "1.2.8",
-  "notes": "New: click your avatar in the header to open My Profile — you can update your own name and phone there, and the change syncs to the server automatically (email, role and department stay with HR/admin). Fixed: dashboards now count new prescriptions immediately — OPD/Finalized/Drafts used to stay 0 until you pressed refresh. Also fixed the OPD counter registration flow and various internal cleanups.",
+  "latest_version": "1.2.9",
+  "notes": "Fixed: prescription sheets print straight to your chosen printer without the slow Windows print dialog — open Print Setup (the printer icon beside Print) once to pick which printer handles prescription sheets and which handles counter receipts, then it just works. Fixed: opening a patient who already visited today continues their existing sheet with the same ticket number — reprints no longer appear as new visits in the doctor workload, and ticket numbers only advance for genuinely new patients (they restart at 001 each day). Cleaned up duplicate payment cards. Also: the app now repairs Windows secure-connection (TLS) settings itself when needed — no support script — and the header status dot no longer shows Offline on slow internet while syncing is actually working.",
   "assets": {
     "windows": {
-      "url": "https://raw.githubusercontent.com/sk-labs/Lixcure-Releases/main/builds/hms-windows-v1.2.8.zip",
-      "sha256": "28c9ce72764ba3ebb19d73f9f38fc05a939dc741f53fa66f62f46373d5b9c047"
+      "url": "https://raw.githubusercontent.com/sk-labs/Lixcure-Releases/main/builds/hms-windows-v1.2.9.zip",
+      "sha256": "ff7bba0bd6c200a0a47b3374a99543e06fc3fffba4641fdfde7b5f036476b46a"
     }
   }
 }
