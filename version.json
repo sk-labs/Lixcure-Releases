@@ -1,10 +1,10 @@
 {
-  "latest_version": "1.2.9",
-  "notes": "Fixed: prescription sheets print straight to your chosen printer without the slow Windows print dialog — open Print Setup (the printer icon beside Print) once to pick which printer handles prescription sheets and which handles counter receipts, then it just works. Fixed: opening a patient who already visited today continues their existing sheet with the same ticket number — reprints no longer appear as new visits in the doctor workload, and ticket numbers only advance for genuinely new patients (they restart at 001 each day). Cleaned up duplicate payment cards. Also: the app now repairs Windows secure-connection (TLS) settings itself when needed — no support script — and the header status dot no longer shows Offline on slow internet while syncing is actually working.",
+  "latest_version": "1.3.0",
+  "notes": "New look for every update popup: update available, download progress, restart, and failed-update messages now use the same clean green Lixcure style with clear progress and friendlier wording. Includes everything from 1.2.9: prescription sheets print straight to your chosen printer (open Print Setup — the printer icon beside Print — to pick which printer handles sheets and which handles counter receipts), opening a patient who already visited today continues their existing sheet with the same ticket number so reprints never inflate the doctor workload, ticket numbers restart at 001 each day, duplicate payment cards removed, the app repairs Windows secure-connection (TLS) settings itself when needed, and the header dot no longer shows Offline on slow internet while syncing is working.",
   "assets": {
     "windows": {
-      "url": "https://raw.githubusercontent.com/sk-labs/Lixcure-Releases/main/builds/hms-windows-v1.2.9.zip",
-      "sha256": "ff7bba0bd6c200a0a47b3374a99543e06fc3fffba4641fdfde7b5f036476b46a"
+      "url": "https://raw.githubusercontent.com/sk-labs/Lixcure-Releases/main/builds/hms-windows-v1.3.0.zip",
+      "sha256": "aa41106019177af0c0e3fe8832daa66d7f80537584098caa70a07aca52ec1942"
     }
   }
 }
