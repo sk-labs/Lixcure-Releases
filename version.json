@@ -1,10 +1,10 @@
 {
-  "latest_version": "1.3.0",
-  "notes": "New look for every update popup: update available, download progress, restart, and failed-update messages now use the same clean green Lixcure style with clear progress and friendlier wording. Includes everything from 1.2.9: prescription sheets print straight to your chosen printer (open Print Setup — the printer icon beside Print — to pick which printer handles sheets and which handles counter receipts), opening a patient who already visited today continues their existing sheet with the same ticket number so reprints never inflate the doctor workload, ticket numbers restart at 001 each day, duplicate payment cards removed, the app repairs Windows secure-connection (TLS) settings itself when needed, and the header dot no longer shows Offline on slow internet while syncing is working.",
+  "latest_version": "1.4.0",
+  "notes": "What's new in 1.4.0: search any patient by their ticket number — type ER-1030001 (or even er1030001) in any counter search, Find Patient or the Patients tab; age entries now accept months and days — type 5m or 14 d and the printed prescription shows '5 months' / '14 days', and printed sheets show gender as M/F; the ER counter clears the patient after printing and Draft badges flip to Final immediately; admit cards can be discharged — they leave the list (a 'Show discharged' chip brings them back) and free the bed; the Patients and Prescriptions tabs load in batches with a Load more button and a 'My registrations' filter so long lists never freeze. Fixes: rows the sync server refused now retry automatically every cycle and Sync Monitor shows the real reason instead of the header dot blaming the internet. Includes everything from 1.3.0: update popups restyled in the clean green Lixcure look, saving hospital branding now syncs to the cloud so every computer and the web dashboard share one copy, prescription sheets print straight to your chosen printer (open Print Setup — the printer icon beside Print), opening a patient who already visited today continues their existing sheet with the same ticket number, ticket numbers restart at 001 each day, duplicate payment cards removed, TLS self-repair, and no false 'Offline' on slow internet.",
   "assets": {
     "windows": {
-      "url": "https://raw.githubusercontent.com/sk-labs/Lixcure-Releases/main/builds/hms-windows-v1.3.0.zip",
-      "sha256": "aa41106019177af0c0e3fe8832daa66d7f80537584098caa70a07aca52ec1942"
+      "url": "https://raw.githubusercontent.com/sk-labs/Lixcure-Releases/main/builds/hms-windows-v1.4.0.zip",
+      "sha256": "5649e1c2ff305e89c517690fbc87be380102d95f63b93d40132d6dff98ef0d21"
     }
   }
 }
