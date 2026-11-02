@@ -1,10 +1,10 @@
 {
-  "latest_version": "1.4.6",
-  "notes": "v1.4.6 \"Ladybug\"\n\n• Hospital logo now saves to the cloud with the rest of the branding and downloads to every computer at sign-in — printed sheets and reports carry it too\n• Closing the app no longer freezes on the Good Bye splash: the final sync runs during the send-off splash, so closing feels instant and safe\n\nIncludes everything from 1.4.5 and earlier.",
+  "latest_version": "1.4.7",
+  "notes": "v1.4.7 \"Dopamine\"\n\n• The Patients tab puts everything on one line: My registrations / All patients, the day picker and the search bar share a single row\n• Pick a day and My registrations shows that day's total right on its label — and it stays yours only: morning, evening and night reception logins never see each other's registrations or payments\n• Includes everything from 1.4.6 \"Ladybug\" and earlier.",
   "assets": {
     "windows": {
-      "url": "https://raw.githubusercontent.com/sk-labs/Lixcure-Releases/main/builds/hms-windows-v1.4.6.zip",
-      "sha256": "aecc1b504a6c684b15b3ee8c72407f3a11b6f2cea2d7059481f808b3289f01ba"
+      "url": "https://raw.githubusercontent.com/sk-labs/Lixcure-Releases/main/builds/hms-windows-v1.4.7.zip",
+      "sha256": "3480a89d6b1c75411bb6c9acfc9f2c403d508036b24ebfca13070837c4a51bc6"
     }
   }
 }
