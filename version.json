@@ -1,10 +1,10 @@
 {
-  "latest_version": "1.4.7",
-  "notes": "v1.4.7 \"Dopamine\"\n\n• The Patients tab puts everything on one line: My registrations / All patients, the day picker and the search bar share a single row\n• Pick a day and My registrations shows that day's total right on its label — and it stays yours only: morning, evening and night reception logins never see each other's registrations or payments\n• Includes everything from 1.4.6 \"Ladybug\" and earlier.",
+  "latest_version": "1.4.8",
+  "notes": "v1.4.8 \"Anchor\"\n\n• Your data now lives in AppData\\Lixcure Health\\Lixcure HMS instead of the Documents folder — the same safe place Windows keeps app data, where staff can't delete it by mistake\n• The first launch after this update moves the database there automatically; patients, settings and sign-ins stay untouched\n• New Inno Setup installer for first installs on new machines; automatic updates keep flowing silently exactly as before",
   "assets": {
     "windows": {
-      "url": "https://raw.githubusercontent.com/sk-labs/Lixcure-Releases/main/builds/hms-windows-v1.4.7.zip",
-      "sha256": "3480a89d6b1c75411bb6c9acfc9f2c403d508036b24ebfca13070837c4a51bc6"
+      "url": "https://raw.githubusercontent.com/sk-labs/Lixcure-Releases/main/builds/hms-windows-v1.4.8.zip",
+      "sha256": "bc2f34931aa7c4610c2ceb163d97aa7e0e42d29640a8ad609000f7f057e4559e"
     }
   }
 }
