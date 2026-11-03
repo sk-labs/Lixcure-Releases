@@ -1,10 +1,10 @@
 {
-  "latest_version": "1.4.8",
-  "notes": "v1.4.8 \"Anchor\"\n\n• Your data now lives in AppData\\Lixcure Health\\Lixcure HMS instead of the Documents folder — the same safe place Windows keeps app data, where staff can't delete it by mistake\n• The first launch after this update moves the database there automatically; patients, settings and sign-ins stay untouched\n• New Inno Setup installer for first installs on new machines; automatic updates keep flowing silently exactly as before",
+  "latest_version": "1.4.9",
+  "notes": "v1.4.9 \"Relay\"\n\n• Patients registered at the counter now appear on the assigned doctor's Patients list on their own machine — even when that machine was signed in before the registration happened\n• Everything pulled from the hospital server (patients, visits, ultrasound reports, appointments) now shows on screen immediately — no restart needed\n• Visits that reached a machine before their doctor did are matched up automatically on the next sync",
   "assets": {
     "windows": {
-      "url": "https://raw.githubusercontent.com/sk-labs/Lixcure-Releases/main/builds/hms-windows-v1.4.8.zip",
-      "sha256": "bc2f34931aa7c4610c2ceb163d97aa7e0e42d29640a8ad609000f7f057e4559e"
+      "url": "https://raw.githubusercontent.com/sk-labs/Lixcure-Releases/main/builds/hms-windows-v1.4.9.zip",
+      "sha256": "05e7a4d407fb44c61c4a666c01c4fc4f95ec5679bc44ba1565fd937c121a1c22"
     }
   }
 }
