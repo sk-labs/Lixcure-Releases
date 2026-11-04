@@ -1,10 +1,10 @@
 {
-  "latest_version": "1.4.11",
-  "notes": "v1.4.11 \"Prune\"\n\n• Deleting a registration now removes it from every machine's records — and it stays deleted, even on a fresh install that never saw it\n• Dashboards and doctor patient lists no longer truncate: all of a day's work is counted, not just the newest 200 visits\n• Sync reliability hardening across the board",
+  "latest_version": "1.4.12",
+  "notes": "v1.4.12 \"Biometry\"\n\n• Single-fetus ultrasounds show the full measurement grid again — B.P.D, F.L, C.R.L and G.S had gone invisible unless twins were selected\n• The No. of Fetus picker now matches the rest of the green theme",
   "assets": {
     "windows": {
-      "url": "https://raw.githubusercontent.com/sk-labs/Lixcure-Releases/main/builds/hms-windows-v1.4.11.zip",
-      "sha256": "d3854b7d49a55762d48add62cc1a6e0115726920f7c9a58566b47336a02b36f0"
+      "url": "https://raw.githubusercontent.com/sk-labs/Lixcure-Releases/main/builds/hms-windows-v1.4.12.zip",
+      "sha256": "b9959583808ef74982a791a3787cb6f2ced9b43b655845e3c253b73eb498a8c6"
     }
   }
 }
