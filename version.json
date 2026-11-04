@@ -1,10 +1,10 @@
 {
-  "latest_version": "1.4.13",
-  "notes": "v1.4.13 \"Ownership\"\n\n• \"My registrations\" and \"My sheets\" now truly belong to the signed-in counter user — signing in online no longer mixes every user's registered patients into your list\n• Ages typed like 15m / 15d / 1.6 keep their meaning on every print instead of showing 0",
+  "latest_version": "1.4.14",
+  "notes": "v1.4.14 \"Referral\"\n\n• Assign Doctor at every counter now lists doctors of all departments (\"Saima Afridi • GYN\"), so any desk can route a visit to any doctor\n• A doctor's Patients list still shows only their assigned patients, but searching it now finds any patient in the hospital by name, phone or ticket\n• Age, village/address and doctor are required on every counter registration",
   "assets": {
     "windows": {
-      "url": "https://raw.githubusercontent.com/sk-labs/Lixcure-Releases/main/builds/hms-windows-v1.4.13.zip",
-      "sha256": "f538d0b55a631e8f961c25356270cbd805797fe7b55f5018cd96987cda2097fa"
+      "url": "https://raw.githubusercontent.com/sk-labs/Lixcure-Releases/main/builds/hms-windows-v1.4.14.zip",
+      "sha256": "c4d096e1bd9b358e60d40e8404397de80a74f6787db83d0da10a11b9e883fda9"
     }
   }
 }
