@@ -1,10 +1,10 @@
 {
-  "latest_version": "1.4.10",
-  "notes": "v1.4.10 \"Ledger\"\n\n• Pharmacy bills now flow to every machine — the doctor and admin PCs see bills created at the pharmacy counter, and revenue reports agree across machines\n• Pulled data now reaches every open screen instantly: stock, lab and radiology orders, OT schedule, blood bank and more — not just patients\n• Sync hardening: a record stamped exactly at the sync boundary can no longer be skipped",
+  "latest_version": "1.4.11",
+  "notes": "v1.4.11 \"Prune\"\n\n• Deleting a registration now removes it from every machine's records — and it stays deleted, even on a fresh install that never saw it\n• Dashboards and doctor patient lists no longer truncate: all of a day's work is counted, not just the newest 200 visits\n• Sync reliability hardening across the board",
   "assets": {
     "windows": {
-      "url": "https://raw.githubusercontent.com/sk-labs/Lixcure-Releases/main/builds/hms-windows-v1.4.10.zip",
-      "sha256": "0a19650796a5787ef2679fd96d70a5cbede38997216549b5ca478f2412b1ebb2"
+      "url": "https://raw.githubusercontent.com/sk-labs/Lixcure-Releases/main/builds/hms-windows-v1.4.11.zip",
+      "sha256": "d3854b7d49a55762d48add62cc1a6e0115726920f7c9a58566b47336a02b36f0"
     }
   }
 }
