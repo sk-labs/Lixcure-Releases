@@ -1,10 +1,10 @@
 {
-  "latest_version": "1.4.12",
-  "notes": "v1.4.12 \"Biometry\"\n\n• Single-fetus ultrasounds show the full measurement grid again — B.P.D, F.L, C.R.L and G.S had gone invisible unless twins were selected\n• The No. of Fetus picker now matches the rest of the green theme",
+  "latest_version": "1.4.13",
+  "notes": "v1.4.13 \"Ownership\"\n\n• \"My registrations\" and \"My sheets\" now truly belong to the signed-in counter user — signing in online no longer mixes every user's registered patients into your list\n• Ages typed like 15m / 15d / 1.6 keep their meaning on every print instead of showing 0",
   "assets": {
     "windows": {
-      "url": "https://raw.githubusercontent.com/sk-labs/Lixcure-Releases/main/builds/hms-windows-v1.4.12.zip",
-      "sha256": "b9959583808ef74982a791a3787cb6f2ced9b43b655845e3c253b73eb498a8c6"
+      "url": "https://raw.githubusercontent.com/sk-labs/Lixcure-Releases/main/builds/hms-windows-v1.4.13.zip",
+      "sha256": "f538d0b55a631e8f961c25356270cbd805797fe7b55f5018cd96987cda2097fa"
     }
   }
 }
