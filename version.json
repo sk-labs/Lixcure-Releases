@@ -1,10 +1,10 @@
 {
-  "latest_version": "1.4.14",
-  "notes": "v1.4.14 \"Referral\"\n\n• Assign Doctor at every counter now lists doctors of all departments (\"Saima Afridi • GYN\"), so any desk can route a visit to any doctor\n• A doctor's Patients list still shows only their assigned patients, but searching it now finds any patient in the hospital by name, phone or ticket\n• Age, village/address and doctor are required on every counter registration",
+  "latest_version": "1.4.15",
+  "notes": "v1.4.15 \"Searchlight\"\n\n• The \"Search doctor by name\" box stays put while you type — the dropdown keeps narrowing instead of the box disappearing after one letter\n• The back arrow on the OPD/ER counter no longer blanks the screen",
   "assets": {
     "windows": {
-      "url": "https://raw.githubusercontent.com/sk-labs/Lixcure-Releases/main/builds/hms-windows-v1.4.14.zip",
-      "sha256": "c4d096e1bd9b358e60d40e8404397de80a74f6787db83d0da10a11b9e883fda9"
+      "url": "https://raw.githubusercontent.com/sk-labs/Lixcure-Releases/main/builds/hms-windows-v1.4.15.zip",
+      "sha256": "130ff8695f16607cc87f8dc6e1300c9af6231948dbdb4da767ada204c43f4118"
     }
   }
 }
