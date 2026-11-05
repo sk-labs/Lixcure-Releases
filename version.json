@@ -1,10 +1,10 @@
 {
-  "latest_version": "1.4.15",
-  "notes": "v1.4.15 \"Searchlight\"\n\n• The \"Search doctor by name\" box stays put while you type — the dropdown keeps narrowing instead of the box disappearing after one letter\n• The back arrow on the OPD/ER counter no longer blanks the screen",
+  "latest_version": "1.4.16",
+  "notes": "v1.4.16 \"Handshake\"\n\n• \"Secure connection failed\" during activation now shows a Run connection repair button that turns TLS 1.2 back on in one click (Windows asks for permission once)\n• For PCs whose browser works but the app doesn't — the blocked PC case",
   "assets": {
     "windows": {
-      "url": "https://raw.githubusercontent.com/sk-labs/Lixcure-Releases/main/builds/hms-windows-v1.4.15.zip",
-      "sha256": "130ff8695f16607cc87f8dc6e1300c9af6231948dbdb4da767ada204c43f4118"
+      "url": "https://raw.githubusercontent.com/sk-labs/Lixcure-Releases/main/builds/hms-windows-v1.4.16.zip",
+      "sha256": "7ff4576d9cabc3c9fc8e154f06d4472042a71596956ebbd8d696f2d266106081"
     }
   }
 }
