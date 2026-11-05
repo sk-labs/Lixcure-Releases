@@ -1,10 +1,10 @@
 {
-  "latest_version": "1.4.16",
-  "notes": "v1.4.16 \"Handshake\"\n\n• \"Secure connection failed\" during activation now shows a Run connection repair button that turns TLS 1.2 back on in one click (Windows asks for permission once)\n• For PCs whose browser works but the app doesn't — the blocked PC case",
+  "latest_version": "1.4.17",
+  "notes": "v1.4.17 \"Steward\"\n\n• ER dashboard: \"ER Sheets Today\" and \"ER Admissions Today\" now show only the signed-in reception user's own work (admins still see the whole department)\n• Assign Doctor at the ER and GYN counters lists that department's doctors only — the OPD counter keeps the all-departments list",
   "assets": {
     "windows": {
-      "url": "https://raw.githubusercontent.com/sk-labs/Lixcure-Releases/main/builds/hms-windows-v1.4.16.zip",
-      "sha256": "7ff4576d9cabc3c9fc8e154f06d4472042a71596956ebbd8d696f2d266106081"
+      "url": "https://raw.githubusercontent.com/sk-labs/Lixcure-Releases/main/builds/hms-windows-v1.4.17.zip",
+      "sha256": "34c840a6aadc204fd7a0290d1c9c4badf3c5a37195da502f5e5dfc90102c73b4"
     }
   }
 }
