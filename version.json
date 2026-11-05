@@ -1,10 +1,10 @@
 {
-  "latest_version": "1.4.17",
-  "notes": "v1.4.17 \"Steward\"\n\n• ER dashboard: \"ER Sheets Today\" and \"ER Admissions Today\" now show only the signed-in reception user's own work (admins still see the whole department)\n• Assign Doctor at the ER and GYN counters lists that department's doctors only — the OPD counter keeps the all-departments list",
+  "latest_version": "1.4.18",
+  "notes": "v1.4.18 \"Signpost\"\n\n• Fixed: after a manual installer upgrade the app kept launching the old version — the installer now points the launcher at the freshly installed version",
   "assets": {
     "windows": {
-      "url": "https://raw.githubusercontent.com/sk-labs/Lixcure-Releases/main/builds/hms-windows-v1.4.17.zip",
-      "sha256": "34c840a6aadc204fd7a0290d1c9c4badf3c5a37195da502f5e5dfc90102c73b4"
+      "url": "https://raw.githubusercontent.com/sk-labs/Lixcure-Releases/main/builds/hms-windows-v1.4.18.zip",
+      "sha256": "557166234c5ebba8d291dfb7520caca5694ef70d22f1591922975cbe87cf2e84"
     }
   }
 }
