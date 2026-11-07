@@ -1,10 +1,10 @@
 {
-  "latest_version": "1.4.18",
-  "notes": "v1.4.18 \"Signpost\"\n\n• Fixed: after a manual installer upgrade the app kept launching the old version — the installer now points the launcher at the freshly installed version",
+  "latest_version": "1.4.19",
+  "notes": "v1.4.19 \"Waypoint\"\n\n• GYN ultrasound: placenta now has two option rows (position + segment), the print shows both, and the sonologist name is on the A4 report\n• Receipt numbers reset monthly and print like OPD-07111-001 / GYN-07111-001 / ER-07111-001\n• Antenatal Registration & Postnatal Exam popups restyled in the house design, with calendar date pickers\n• Print preview now shows infant ages in months (was AGE: 0)\n• Counter screens: duplicate header removed, * on every required field\n• Sidebar cleaned to one Admit Cards and one Queue entry\n• Patients Analytics: date picker to see all data or a specific day",
   "assets": {
     "windows": {
-      "url": "https://raw.githubusercontent.com/sk-labs/Lixcure-Releases/main/builds/hms-windows-v1.4.18.zip",
-      "sha256": "557166234c5ebba8d291dfb7520caca5694ef70d22f1591922975cbe87cf2e84"
+      "url": "https://raw.githubusercontent.com/sk-labs/Lixcure-Releases/main/builds/hms-windows-v1.4.19.zip",
+      "sha256": "bdb35c17425e3bc176e27972e4717979bd05cce854fc2f262c83c9817c3c3998"
     }
   }
 }
