@@ -1,14 +1,14 @@
 {
-  "latest_version": "1.4.21",
-  "notes": "v1.4.21 \"Compass\"\n\n• Counter screens fully modernized: Dashboard, Appointments, Patients, Prescriptions, Pays, Queue, Payments and Notifs now share the counter design — solid stat cards, charts, day picker in the top bar\n• Payments page: day picker moved to the top bar, revenue cards + revenue-by-source donuts + collections register table\n• Queue board: only shows this counter's sheets (ER sheets no longer appear on the OPD counter), triage donut + counter bar chart, top bar day picker\n• Pays (X-Ray / ECG): fee chips, collected cards, collected-by-service charts, register wrapped in a banded panel\n• Appointments: rebuilt booking panel + day stat cards + upcoming grid\n• Patients desk: Registered / Male / Female / Other stat strip above the register\n• Radiology reports: scan-based vocabulary and revenue charts\n• Sync engine keeps working through flaky links (per-table tolerance) and the server count sweep is much lighter on the database server\n• Counter print jobs no longer stall on a font download (fonts now bundled)",
+  "latest_version": "1.4.22",
+  "notes": "v1.4.22 \"Ledgerline\"\n\n• Patient registrations now follow the desk user across PCs — \"My registrations\" on the Patients page shows the patients you registered on another hospital PC too (registration attribution travels with the sync)\n• The counter register's search box moved to the top bar, with the ticket example matching your counter (OPD desks see OPD-07111-001, ER desks see ER-07111-001)\n• The extra \"Register / Find Patient\" title and the blank strip under the top bar on the OPD/ER/GYN counter pages are gone\n• Patients page search hint also matches your counter",
   "assets": {
     "windows": {
-      "url": "https://raw.githubusercontent.com/sk-labs/Lixcure-Releases/main/builds/hms-windows-v1.4.21.zip",
-      "sha256": "cd67b9d21b83c32ea23e9518c5caa994d22b25e29c66fec78b1919d90e3085b1"
+      "url": "https://raw.githubusercontent.com/sk-labs/Lixcure-Releases/main/builds/hms-windows-v1.4.22.zip",
+      "sha256": "5ad9075cdcc3137f65062c5bfe9bd05d82a2fa8597c89397706a99fd7cf8067f"
     },
     "windows_setup": {
-      "url": "https://raw.githubusercontent.com/sk-labs/Lixcure-Releases/main/builds/hms-windows-setup-v1.4.21.exe",
-      "sha256": "aaf94aa632aedd35d2500a26106fb2f65c1d94d810f73720ff007908d2f522ca"
+      "url": "https://raw.githubusercontent.com/sk-labs/Lixcure-Releases/main/builds/hms-windows-setup-v1.4.22.exe",
+      "sha256": "edc9a067a5e85f04426f2ea4d4d9f8d5c4c7f5baadce66fa5a9e439083138aca"
     }
   }
 }
