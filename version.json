@@ -1,10 +1,14 @@
 {
-  "latest_version": "1.4.19",
-  "notes": "v1.4.19 \"Waypoint\"\n\n• GYN ultrasound: placenta now has two option rows (position + segment), the print shows both, and the sonologist name is on the A4 report\n• Receipt numbers reset monthly and print like OPD-07111-001 / GYN-07111-001 / ER-07111-001\n• Antenatal Registration & Postnatal Exam popups restyled in the house design, with calendar date pickers\n• Print preview now shows infant ages in months (was AGE: 0)\n• Counter screens: duplicate header removed, * on every required field\n• Sidebar cleaned to one Admit Cards and one Queue entry\n• Patients Analytics: date picker to see all data or a specific day",
+  "latest_version": "1.4.21",
+  "notes": "v1.4.21 \"Compass\"\n\n• Counter screens fully modernized: Dashboard, Appointments, Patients, Prescriptions, Pays, Queue, Payments and Notifs now share the counter design — solid stat cards, charts, day picker in the top bar\n• Payments page: day picker moved to the top bar, revenue cards + revenue-by-source donuts + collections register table\n• Queue board: only shows this counter's sheets (ER sheets no longer appear on the OPD counter), triage donut + counter bar chart, top bar day picker\n• Pays (X-Ray / ECG): fee chips, collected cards, collected-by-service charts, register wrapped in a banded panel\n• Appointments: rebuilt booking panel + day stat cards + upcoming grid\n• Patients desk: Registered / Male / Female / Other stat strip above the register\n• Radiology reports: scan-based vocabulary and revenue charts\n• Sync engine keeps working through flaky links (per-table tolerance) and the server count sweep is much lighter on the database server\n• Counter print jobs no longer stall on a font download (fonts now bundled)",
   "assets": {
     "windows": {
-      "url": "https://raw.githubusercontent.com/sk-labs/Lixcure-Releases/main/builds/hms-windows-v1.4.19.zip",
-      "sha256": "bdb35c17425e3bc176e27972e4717979bd05cce854fc2f262c83c9817c3c3998"
+      "url": "https://raw.githubusercontent.com/sk-labs/Lixcure-Releases/main/builds/hms-windows-v1.4.21.zip",
+      "sha256": "cd67b9d21b83c32ea23e9518c5caa994d22b25e29c66fec78b1919d90e3085b1"
+    },
+    "windows_setup": {
+      "url": "https://raw.githubusercontent.com/sk-labs/Lixcure-Releases/main/builds/hms-windows-setup-v1.4.21.exe",
+      "sha256": "aaf94aa632aedd35d2500a26106fb2f65c1d94d810f73720ff007908d2f522ca"
     }
   }
 }
