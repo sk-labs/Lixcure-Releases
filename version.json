@@ -1,14 +1,14 @@
 {
-  "latest_version": "1.4.24",
-  "notes": "v1.4.24 \"Beacon\"\n\n• Your work now follows you across PCs — prescriptions (\"My sheets\") and admissions show the desk user who made them on whichever computer they sign in; older ones catch up automatically over the next hours\n• The Patients page shows the whole hospital: \"All dates\" lists every patient, the day filter really filters (All patients + a date = every desk user's patients registered that day), and the stat cards count the real hospital\n• Counter dashboards are read-only summaries — recent 10 sheets and admissions of the signed-in user, no New Patient button (registration lives on the Counter screen only)\n• Prescriptions page: one clean toolbar — My/All sheets, day picker, live search; every card opens itself and the list refreshes itself",
+  "latest_version": "1.4.25",
+  "notes": "v1.4.25 \"Bannerman\"\n\n• The ER counter's empty strip under the top bar is gone — the page now starts straight at the queue, same as the OPD counter",
   "assets": {
     "windows": {
-      "url": "https://raw.githubusercontent.com/sk-labs/Lixcure-Releases/main/builds/hms-windows-v1.4.24.zip",
-      "sha256": "e7b0721ce1ca2d8002681d8b13f88fe75ad11308e1b1e50ef798766ce0310e25"
+      "url": "https://raw.githubusercontent.com/sk-labs/Lixcure-Releases/main/builds/hms-windows-v1.4.25.zip",
+      "sha256": "ce236e969ab616290ccaadf64120f05543e33907db37021592d978e7697b061f"
     },
     "windows_setup": {
-      "url": "https://raw.githubusercontent.com/sk-labs/Lixcure-Releases/main/builds/hms-windows-setup-v1.4.24.exe",
-      "sha256": "dbf4e7ce94f68411754693e81fc9486f2ec4fb67bc41733e574f98fe31822bfa"
+      "url": "https://raw.githubusercontent.com/sk-labs/Lixcure-Releases/main/builds/hms-windows-setup-v1.4.25.exe",
+      "sha256": "411ca17c51bb2871753d11c440a35e152c3832cdb3069e66d3f4f4607b9dd7b5"
     }
   }
 }
