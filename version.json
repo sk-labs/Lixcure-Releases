@@ -1,14 +1,14 @@
 {
-  "latest_version": "1.4.25",
-  "notes": "v1.4.25 \"Bannerman\"\n\n• The ER counter's empty strip under the top bar is gone — the page now starts straight at the queue, same as the OPD counter",
+  "latest_version": "1.4.26",
+  "notes": "v1.4.26 \"Gatekeeper\"\n\n• Dashboard patient cards now count registrations — the same numbers the Patients screen shows\n• Admit Cards register: search, filter (status/gender) and bulk discharge with row checkboxes\n• Gyn dashboard shows the same recent-10 sheets as ER and OPD\n• Sync fix: healed records now reach every PC, so each register fills up to the hospital's full history",
   "assets": {
     "windows": {
-      "url": "https://raw.githubusercontent.com/sk-labs/Lixcure-Releases/main/builds/hms-windows-v1.4.25.zip",
-      "sha256": "ce236e969ab616290ccaadf64120f05543e33907db37021592d978e7697b061f"
+      "url": "https://raw.githubusercontent.com/sk-labs/Lixcure-Releases/main/builds/hms-windows-v1.4.26.zip",
+      "sha256": "fcdfa21ff1c80077b5da68fb37ab020729ff77c9c27457b417d32121f57aca03"
     },
     "windows_setup": {
-      "url": "https://raw.githubusercontent.com/sk-labs/Lixcure-Releases/main/builds/hms-windows-setup-v1.4.25.exe",
-      "sha256": "411ca17c51bb2871753d11c440a35e152c3832cdb3069e66d3f4f4607b9dd7b5"
+      "url": "https://raw.githubusercontent.com/sk-labs/Lixcure-Releases/main/builds/hms-windows-setup-v1.4.26.exe",
+      "sha256": "dd4545161b2fd35fed2679b6233eff6494a650d7619941ba0e82477291ec562b"
     }
   }
 }
