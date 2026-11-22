@@ -1,14 +1,14 @@
 {
-  "latest_version": "1.4.23",
-  "notes": "v1.4.23 \"Watchman\"\n\n• The app can no longer get stuck and stop uploading — every server request now fails on its own within a minute if the connection dies, and a stuck sync round is force-released after 10 minutes (this is what froze the ER counter's upload queue for hours on the 21st)\n• Patient registrations now follow the desk user across PCs — \"My registrations\" shows your patients no matter which computer you registered them on\n• Big uploads (backups) keep a 10-minute window so slow connections still finish",
+  "latest_version": "1.4.24",
+  "notes": "v1.4.24 \"Beacon\"\n\n• Your work now follows you across PCs — prescriptions (\"My sheets\") and admissions show the desk user who made them on whichever computer they sign in; older ones catch up automatically over the next hours\n• The Patients page shows the whole hospital: \"All dates\" lists every patient, the day filter really filters (All patients + a date = every desk user's patients registered that day), and the stat cards count the real hospital\n• Counter dashboards are read-only summaries — recent 10 sheets and admissions of the signed-in user, no New Patient button (registration lives on the Counter screen only)\n• Prescriptions page: one clean toolbar — My/All sheets, day picker, live search; every card opens itself and the list refreshes itself",
   "assets": {
     "windows": {
-      "url": "https://raw.githubusercontent.com/sk-labs/Lixcure-Releases/main/builds/hms-windows-v1.4.23.zip",
-      "sha256": "81b3ea8bfb69ec0e05ad633756347e048ec82680305d06be7c65798662264405"
+      "url": "https://raw.githubusercontent.com/sk-labs/Lixcure-Releases/main/builds/hms-windows-v1.4.24.zip",
+      "sha256": "e7b0721ce1ca2d8002681d8b13f88fe75ad11308e1b1e50ef798766ce0310e25"
     },
     "windows_setup": {
-      "url": "https://raw.githubusercontent.com/sk-labs/Lixcure-Releases/main/builds/hms-windows-setup-v1.4.23.exe",
-      "sha256": "6dbfc9a447af265203e4ec48aa7596d1e570b3a7c43f4bae33a704a8af46d81a"
+      "url": "https://raw.githubusercontent.com/sk-labs/Lixcure-Releases/main/builds/hms-windows-setup-v1.4.24.exe",
+      "sha256": "dbf4e7ce94f68411754693e81fc9486f2ec4fb67bc41733e574f98fe31822bfa"
     }
   }
 }
