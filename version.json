@@ -1,14 +1,14 @@
 {
-  "latest_version": "1.4.22",
-  "notes": "v1.4.22 \"Ledgerline\"\n\n• Patient registrations now follow the desk user across PCs — \"My registrations\" on the Patients page shows the patients you registered on another hospital PC too (registration attribution travels with the sync)\n• The counter register's search box moved to the top bar, with the ticket example matching your counter (OPD desks see OPD-07111-001, ER desks see ER-07111-001)\n• The extra \"Register / Find Patient\" title and the blank strip under the top bar on the OPD/ER/GYN counter pages are gone\n• Patients page search hint also matches your counter",
+  "latest_version": "1.4.23",
+  "notes": "v1.4.23 \"Watchman\"\n\n• The app can no longer get stuck and stop uploading — every server request now fails on its own within a minute if the connection dies, and a stuck sync round is force-released after 10 minutes (this is what froze the ER counter's upload queue for hours on the 21st)\n• Patient registrations now follow the desk user across PCs — \"My registrations\" shows your patients no matter which computer you registered them on\n• Big uploads (backups) keep a 10-minute window so slow connections still finish",
   "assets": {
     "windows": {
-      "url": "https://raw.githubusercontent.com/sk-labs/Lixcure-Releases/main/builds/hms-windows-v1.4.22.zip",
-      "sha256": "5ad9075cdcc3137f65062c5bfe9bd05d82a2fa8597c89397706a99fd7cf8067f"
+      "url": "https://raw.githubusercontent.com/sk-labs/Lixcure-Releases/main/builds/hms-windows-v1.4.23.zip",
+      "sha256": "81b3ea8bfb69ec0e05ad633756347e048ec82680305d06be7c65798662264405"
     },
     "windows_setup": {
-      "url": "https://raw.githubusercontent.com/sk-labs/Lixcure-Releases/main/builds/hms-windows-setup-v1.4.22.exe",
-      "sha256": "edc9a067a5e85f04426f2ea4d4d9f8d5c4c7f5baadce66fa5a9e439083138aca"
+      "url": "https://raw.githubusercontent.com/sk-labs/Lixcure-Releases/main/builds/hms-windows-setup-v1.4.23.exe",
+      "sha256": "6dbfc9a447af265203e4ec48aa7596d1e570b3a7c43f4bae33a704a8af46d81a"
     }
   }
 }
