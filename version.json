@@ -1,14 +1,14 @@
 {
-  "latest_version": "1.4.26",
-  "notes": "v1.4.26 \"Gatekeeper\"\n\n• Dashboard patient cards now count registrations — the same numbers the Patients screen shows\n• Admit Cards register: search, filter (status/gender) and bulk discharge with row checkboxes\n• Gyn dashboard shows the same recent-10 sheets as ER and OPD\n• Sync fix: healed records now reach every PC, so each register fills up to the hospital's full history",
+  "latest_version": "1.4.27",
+  "notes": "v1.4.27 \"Rebound\"\n\n• Fixes the sync error some counters hit after updating (\"Expected 14 parameters, got 15\") — the red Error badge clears and syncing resumes on the next cycle\n• Healing continues: every register keeps filling up to the hospital's full history",
   "assets": {
     "windows": {
-      "url": "https://raw.githubusercontent.com/sk-labs/Lixcure-Releases/main/builds/hms-windows-v1.4.26.zip",
-      "sha256": "fcdfa21ff1c80077b5da68fb37ab020729ff77c9c27457b417d32121f57aca03"
+      "url": "https://raw.githubusercontent.com/sk-labs/Lixcure-Releases/main/builds/hms-windows-v1.4.27.zip",
+      "sha256": "2d798481c1ecf05cc8caa0b5ad1a01dc3f55e411f1080972acc2ddaef1d2bffe"
     },
     "windows_setup": {
-      "url": "https://raw.githubusercontent.com/sk-labs/Lixcure-Releases/main/builds/hms-windows-setup-v1.4.26.exe",
-      "sha256": "dd4545161b2fd35fed2679b6233eff6494a650d7619941ba0e82477291ec562b"
+      "url": "https://raw.githubusercontent.com/sk-labs/Lixcure-Releases/main/builds/hms-windows-setup-v1.4.27.exe",
+      "sha256": "dc080a923d1d7fe6b603fa3ac35f4aa61eda849828f17cdeffbbb1d91072ad60"
     }
   }
 }
